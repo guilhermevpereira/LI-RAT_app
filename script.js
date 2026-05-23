@@ -53,14 +53,14 @@ const CONFIG = {
     { id: 4, visImg: 'peacock.jpg', conImg: 'ventilator.jpg', solutions: [] },
     { id: 5, visImg: 'necklace.jpg', conImg: 'dog.jpg', solutions: [] },
     { id: 6, visImg: 'cauliflower.jpg', conImg: 'cinecamera.jpg', solutions: [] },
-    { id: 7, visImg: 'gasbottle.jpg', conImg: 'fire.jpg', solutions: [] },
+    // { id: 7, visImg: 'gasbottle.jpg', conImg: 'fire.jpg', solutions: [] },
     { id: 8, visImg: 'hose.jpg', conImg: 'poison.jpg', solutions: [] },
-    // { id: 9, visImg: 'bowtie.jpg', conImg: 'bug.jpg', solutions: [] },
+    { id: 9, visImg: 'bowtie.jpg', conImg: 'bug.jpg', solutions: [] },
     { id: 10, visImg: 'bridge.jpg', conImg: 'weather.jpg', solutions: [] },
     { id: 11, visImg: 'dragonfly.jpg', conImg: 'doll.jpg', solutions: [] },
     { id: 12, visImg: 'ruler.png', conImg: 'pool.jpg', solutions: [] },
-    { id: 13, visImg: 'zebra.jpg', conImg: 'road.jpg', solutions: [] },
-    { id: 14, visImg: 'tower.jpg', conImg: 'flashlight.jpg', solutions: [] }
+    { id: 13, visImg: 'pear.jpg', conImg: 'candle.jpg', solutions: [] },
+    { id: 14, visImg: 'tower.jpg', conImg: 'flashlight.jpg', solutions: [] },
     // { id: 15, visImg: 'penguin.jpg', conImg: 'cross.jpg', solutions: [] }
   ],
 
