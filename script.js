@@ -470,7 +470,7 @@ async function showEnd() {
         <div class="stat"><div class="label">TR médio (respondidas)</div><div class="value">${stats.meanRtAll}<span style="font-size:14px"> ms</span></div><div class="sub">DP ${stats.sdRtAll}</div></div>
         ${hasScoring ? `<div class="stat"><div class="label">TR médio (corretas)</div><div class="value">${stats.meanRtCorrect}<span style="font-size:14px"> ms</span></div><div class="sub">DP ${stats.sdRtCorrect}</div></div>
         <div class="stat"><div class="label">Quociente Prec / TR</div><div class="value">${stats.accRtQuotient}</div><div class="sub">×10⁻⁴ por ms</div></div>` : ''}
-        <div class="stat"><div class="label">Tempo médio de digitação</div><div class="value">${stats.meanTyping}<span style="font-size:14px"> ms</span></div></div>
+
       </div>
       <div class="data-actions">
         <button class="btn btn-primary" id="dlCsv">Baixar CSV</button>
