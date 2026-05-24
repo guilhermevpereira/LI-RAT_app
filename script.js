@@ -103,8 +103,12 @@ function recordTrial(row) {
 }
 function render(html) { $main.innerHTML = html; }
 function setProgress(text) { $progress.textContent = text || ''; }
+function resolveImagePath(filename) {
+  if (/^(https?:)?\/\//.test(filename) || filename.startsWith('img/')) return filename;
+  return CONFIG.imageFolder + filename;
+}
 function imgOrPlaceholder(filename) {
-  const url = CONFIG.imageFolder + filename;
+  const url = resolveImagePath(filename);
   return `<img src="${url}" alt="${filename}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
     <div class="placeholder" style="display:none">Image not found<code>${filename}</code></div>`;
 }
