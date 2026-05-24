@@ -40,8 +40,8 @@ const CONFIG = {
 
   practice: {
     id: 'practice',
-    visImg: 'img/demo/stone.jpg',
-    conImg: 'img/demo/stethoscope.jpg',
+    visImg: 'demo/stone.jpg',
+    conImg: 'demo/stethoscope.jpg',
     solutions: ['coração']
   },
 
