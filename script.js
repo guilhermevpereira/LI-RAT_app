@@ -141,6 +141,8 @@ function screen_welcome() {
         Adapted from Becker, M., &amp; Cabeza, R. (2023). <em>Assessing creativity independently of language: A language-independent remote associate task (LI-RAT)</em>. Behavior Research Methods, 55, 85–102.
         <a href="https://doi.org/10.3758/s13428-021-01773-5" target="_blank">doi.org/10.3758/s13428-021-01773-5</a>
         </br>
+        Original stimuli &amp; materials:
+        <a href="https://github.com/MaxiBecker/LI-RAT" target="_blank">github.com/MaxiBecker/LI-RAT</a>
       </p>
     </div>`);
   const $subjId = document.getElementById('subjId');
