@@ -315,7 +315,7 @@ async function runPostIntro() {
         <p>Verbos, adjetivos ou conceitos abstratos (ex: <em>caminhar</em>, <em>bonito</em>, <em>alegria</em>) não contam.</p>
         <p>O exercício contém <strong>${state.trialList.length} problemas</strong>.</p>
         <p style="margin-top:24px"><strong>Importante:</strong> Não recarregue a página após iniciar o teste. Caso isso aconteça, você perderá todo o progresso e terá que recomeçar.</p>
-        <p style="margin-top:32px;text-align:center">Pronto?</p>` }
+        <p style="margin-top:32px;text-align:center">Tudo pronto?</p>` }
   ];
   let i = 0;
   while (i < pages.length) {
